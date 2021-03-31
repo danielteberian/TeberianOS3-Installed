@@ -1,0 +1,39 @@
+mkdir GENERATED &&
+cd GENERATED &&
+ls ../../A > A &&
+ls ../../B > B &&
+ls ../../C > C &&
+ls ../../D > D &&
+ls ../../E > E &&
+ls ../../F > F &&
+ls ../../G > G &&
+ls ../../H > H &&
+ls ../../I > I &&
+ls ../../J > J &&
+ls ../../K > K &&
+ls ../../L > L &&
+ls ../../M > M &&
+ls ../../N > N &&
+ls ../../O > O &&
+ls ../../P > P &&
+ls ../../Q > Q &&
+ls ../../R > R &&
+ls ../../S > S &&
+ls ../../T > T &&
+ls ../../U > U &&
+ls ../../V > V &&
+ls ../../W > W &&
+ls ../../X > X &&
+ls ../../Y > Y &&
+ls ../../Z > Z &&
+ls ../../NUM > NUM &&
+mkdir Extensions &&
+cd Extensions &&
+ls ../../../Extensions/Perl > Perl &&
+ls ../../../Extensions/RPackages > R &&
+cd ../../.. &&
+git add Lists/GENERATED/* &&
+git add Lists/GENERATED/Extensions/* &&
+git commit -m "Automatically updated the lists of installed packages." &&
+git push &&
+echo "FINISHED!"
