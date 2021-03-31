@@ -227,6 +227,7 @@ Catalyst::View::JSON
 Catalyst::View::TT
 CatalystX::AppBuilder
 C::Blocks
+CDB::File
 CGI
 CGI::Cookie::XS
 CGI::Simple
@@ -978,6 +979,7 @@ HTML::Form
 HTML::Formatter
 HTML::FormatText::WithLinks
 HTML::Parser
+HTML::Summary
 HTML::TableExtract
 HTML::Tagset
 HTML::Template
@@ -1768,6 +1770,7 @@ Scalar::Util::LooksLikeNumber
 Scalar::Util::Numeric
 Scalar::Util::Numeric::PP
 Scalar::Watcher
+Schedule::SoftTime
 Scope::Guard
 Scope::Upper
 Scriptalicious
@@ -2264,6 +2267,7 @@ WWW::Form::UrlEncoded
 WWW::Mechanize
 WWW::Mechanize::GZip
 WWW::Mechanize::TreeBuilder
+WWW::Robot
 WWW::RobotRules
 XML::asData
 XML::Atom::SimpleFeed
