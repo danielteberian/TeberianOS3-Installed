@@ -10,10 +10,12 @@ c-ares
 cash
 Cash-CLI
 Cataclysm-DDA
+cc65
 ccache
 CDM
 CDParanoiaIII
 cdrtools
+cdw
 cffi
 chalk
 Chapel
@@ -37,11 +39,13 @@ Coconut
 Cogl
 colord
 ColorPicker
+colorstatic
 columnify
 Compface
 composure
 Conan
 conda
+conky
 consola
 console-log-level
 containerd
@@ -56,5 +60,6 @@ Cups
 cURL
 Curse-of-War
 CurseRadio
+cwm
 Cython
 Cytoscape.js
