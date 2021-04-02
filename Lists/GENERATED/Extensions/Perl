@@ -49,6 +49,9 @@ Alt::IO::All::new
 Alzabo
 Amazon::S3::Thin
 AMF::Perl
+Amon2
+Amon2::CLI
+Amon2::DBI
 Android::ADB
 Android::Build
 Android::Releases
@@ -303,6 +306,7 @@ Class::Delegation
 Class::Delegation::Simple
 Class::Delegator
 Class::Easy
+Class::ErrorHandler
 Class::Factory
 Class::Factory::Enhanced
 Class::Factory::Util
@@ -466,6 +470,7 @@ Crypt::JWT
 Crypt::Lucifer
 Crypt::OpenSSL::Bignum
 Crypt::OpenSSL::Guess
+Crypt::OpenSSL::PKCS10
 Crypt::OpenSSL::PKCS12
 Crypt::OpenSSL::Random
 Crypt::OpenSSL::RSA
@@ -748,7 +753,11 @@ Email::Date::Format
 Email::MessageID
 Email::MIME
 Email::MIME::ContentType
+Email::MIME::CreateHTML
 Email::MIME::Encodings
+Email::Reply
+Email::Sample
+Email::Send
 Email::Sender
 Email::Simple
 Email::Valid
@@ -972,11 +981,18 @@ Functional::Utility
 Function::Fallback::CoreOrPP
 Function::Parameters
 Furl
+Furl::Cookies
+Furl::HTTP::OAuth
+Furl::PSGI
+Furl::S3
 Fuse
 Future
+Future::AsyncAwait
 FWS::Lite
 Games::Quake::Log
 GD::Barcode
+Gearman
+Gearman::Server
 Gedcom
 Gedcom::Date
 Gedcom::FOAF
@@ -1169,6 +1185,7 @@ Hey::heyPass
 Hook::LexWrap
 HTML::Declare
 HTML::FillInForm
+HTML::FillInForm::Lite
 HTML::Form
 HTML::Formatter
 HTML::FormatText::WithLinks
@@ -1186,7 +1203,9 @@ HTML::Template
 HTML::Template::Compiled
 HTML::Template::Pro
 HTML::Tiny
+HTML::TokeParser::Simple
 HTML::Tree
+HTML::TreeBuilder::XPath
 HTML::YaTmpl
 HTML::Zoom
 HTTP::Body
@@ -1208,6 +1227,7 @@ HTTP::Online
 HTTP::Parser
 HTTP::Request::AsCGI
 HTTP::Server::Simple::PSGI
+HTTP::Session2
 HTTP::Tinyish
 HTTP::Tiny::Multipart
 HTTP::Tiny::UNIX
@@ -1298,6 +1318,7 @@ IPC::Run
 IPC::Run3
 IPC::System::Options
 IPC::System::Simple
+IRC::Utils
 IRI
 Iterator::Array::Jagged
 Iterator::Simple
@@ -1323,6 +1344,7 @@ JSON::Hyper
 JSON::MaybeXS
 JSON::Parse
 JSON::Path
+JSON::Pointer
 JSON::PP::Compat5005
 JSON::PP::Compat5006
 JSON::PP::Monkey
@@ -1334,6 +1356,7 @@ JSON::Validator
 JSON::WebToken
 JSON::XS
 JSON::YAJL
+JSV
 Kavorka
 Kelp
 Keyword::Declare
@@ -1360,6 +1383,10 @@ Lazy::Lockfile
 Lazy::Util
 Lazy::Utils
 Lchown
+LEOCHARRE::Class
+LEOCHARRE::Class2
+LEOCHARRE::Debug
+LEOCHARRE::DEBUG
 Lexical::Alias
 Lexical::Importer
 Lexical::SealRequireHints
@@ -1382,6 +1409,7 @@ Lingua::EN::Tagger
 Lingua::EN::Words2Nums
 Lingua::FI::Hyphenate
 Lingua::FI::Transcribe
+Lingua::JA::Regular::Unicode
 Lingua::Names
 Lingua::PT::Capitalizer
 Lingua::PT::Conjugate
@@ -1411,15 +1439,23 @@ List::AllUtils
 List::Compare
 List::Cycle
 List::Flat
+List::Flatten
+List::Flatten::XS
 List::Gather
 List::GroupBy
 List::MoreUtils
 List::MoreUtils::XS
+List::OrderBy
+List::Pairwise
+List::Parseable
 List::Part
 List::Permute::Limit
+List::Permutor
 List::PowerSet
 List::Prefixed
+List::Priority
 List::PriorityQueue
+List::Range
 List::SomeUtils
 List::SomeUtils::XS
 List::Uniq
@@ -1502,6 +1538,7 @@ Mail::RFC822::Address
 MailTools
 Map::Tube
 Map::Tube::Exception
+Map::Tube::Kharkiv
 Map::Tube::Plugin::Formatter
 Markdown::To::POD
 Marpa::R2
@@ -1557,6 +1594,9 @@ Math::LogRand
 Math::LongDouble
 Math::Matrix
 Math::MatrixReal
+MathML::Entities
+MathML::Entities::Approximate
+MathML::itex2MML
 Math::nSphere
 Math::Pari
 Math::Permute::List
@@ -1628,6 +1668,7 @@ Menlo::Legacy
 Mercury
 Messaging::Message
 Meta::Builder
+Metadata
 Method::Signature
 Method::Signatures::Simple
 Metrics::Any
@@ -1686,6 +1727,10 @@ Mock::Config
 Mock::MonkeyPatch
 Mock::Quick
 Mock::Sub
+Model3D::Poser::GetStringRes
+Model3D::WavefrontObject
+Modem::VBox
+Modem::Vgetty
 Modern::Perl
 ModPerl::VersionUtil
 Module::Advisor
@@ -1715,8 +1760,18 @@ Module::Info
 Module::Install
 Module::install::AuthorTests
 Module::Installed::Tiny
+Module::Lazy
 Module::List
+Module::List::Pluggable
 Module::Load
+Module::Loadable
+Module::Load::Conditional
+Module::Load::DiffINC
+Module::Loaded
+Module::Loader
+Module::Load::In::INIT
+Module::Load::Util
+Module::LocalBuild
 Module::Optional
 Module::Overview
 Module::Patch
@@ -1746,6 +1801,7 @@ Mojar
 Mojar::Cron
 Mojar::Google::Analytics
 Mojar::Message
+Mojo::IRC
 Mojolicious
 Mojolicious::Plugin::OpenAPI
 Mojo::SAML
@@ -1809,6 +1865,7 @@ MooX::Cmd
 MooX::late
 MooX::Locale::Passthrough
 MooX::Options
+MooX::Role::JSON::JD
 MooX::ShortHas
 MooX::Singleton
 MooX::StrictConstructor
@@ -1817,6 +1874,7 @@ MooX::Types::MooseLike
 MooX::Types::MooseLike::Numeric
 Mouse
 MouseX::ConfigFromFile
+MouseX::Foreign
 MouseX::SimpleConfig
 MouseX::Types
 MouseX::Types::Path::Class
@@ -1824,6 +1882,8 @@ Mozilla::CA
 MP3::Find
 MP3::Podcast
 MP3::Tag
+MPEG::Audio::Frame
+MPEG::ID3v2Tag
 MRO::Compat
 MRTG::Config
 MRTG::Parse
@@ -1887,6 +1947,8 @@ Number::Misc
 OAI::Harvester
 Object::Accessor
 Object::Adhoc
+Object::Container
+Object::Event
 Object::ID
 Object::Import
 Object::InsideOut
@@ -1903,6 +1965,8 @@ OpenAPI::Client
 Opsview::REST
 Opsview::RestAPI
 Opsview::StatusAPI
+OptArgs
+OptArgs2
 Org::Dump
 Org::Examples
 Org::Parser
@@ -1911,6 +1975,11 @@ OSPF::LSDB
 Otogiri
 Ouch
 OutlineNumber
+overload::eval
+overload::open
+overload::reify
+overload::substr
+overload::x
 OzDB
 P
 Package::Constants
@@ -1949,6 +2018,7 @@ PAR::Repository::Client
 PAR::Repository::Query
 PAR::Repository::Web
 Parse::CPAN::Packages::Fast
+Parse::IRC
 Parse::Keyword
 ParseLex
 Parse::LocalDistribution
@@ -1971,6 +2041,8 @@ PDA::Simple
 PDL
 PDL::DateTime
 Pegex
+Penguin
+Penguin::Easy
 Perinci::Access
 Perinci::Access::Base
 Perinci::Access::HTTP::Client
@@ -2021,6 +2093,8 @@ PERLANCAR::File::HomeDir
 PERLANCAR::Sort::Sub
 Perlbal
 Perl::Critic
+Perl::Destruct::Level
+Perldoc
 PerlGSL::DiffEq
 PerlIO::fgets
 PerlIO::gzip
@@ -2037,8 +2111,13 @@ PerlIO::via::Timeout
 Perlipse
 perl::ldap
 Perlmazing
+PerlMongers::Bangalore
+PerlMongers::Hannover
+PerlMongers::MadMongers
+PerlMongers::Warszawa
 Perl::osnames
 Perl::PrereqScanner::NotQuiteLite
+perlsnippets
 Perl::Squish
 Perl::Tidy
 Perl::Tutorial
@@ -2114,6 +2193,7 @@ Probe::Perl
 Proc::Background
 Proc::ChildError
 Proc::Daemon
+Proc::Guard
 Proc::ProcessTable
 Progress::Any
 Prometheus::Tiny
@@ -2140,6 +2220,8 @@ Range::Iterator
 Range::Merge
 Range::Object
 Range::ScalarIter
+RDF::Core
+RDF::Notation3
 RDF::Query
 RDF::Trine
 Readonly
@@ -2165,6 +2247,7 @@ Regexp::Trie
 REST::Client
 REST::Cot
 Return::Type
+Return::Value
 Roku::ECP
 Roku::LCD
 Roku::RCP
@@ -2175,6 +2258,7 @@ Role::Identifiable
 Role::Tiny
 Roman
 Roman::Unicode
+Router::Boom
 Router::Simple
 routines
 RPC::XML
@@ -2238,6 +2322,8 @@ Search::Elasticsearch
 Search::ESsearcher
 Security::CVSS
 self
+SemanticWeb::OAI::ORE
+SemanticWeb::Schema
 Sepia
 Sereal::Decoder
 Sereal::Encoder
@@ -2286,6 +2372,7 @@ Sort::ArbBiLex
 Sort::Array
 Sort::ArrayOfArrays
 Sort::BySpec
+Sort::DataTypes
 Sort::Fields
 Sort::filevercmp
 Sort::Half::Maker
@@ -2321,6 +2408,7 @@ SQL::Abstract::Classic
 SQL::Abstract::Limit
 SQL::Beautify
 SQL::Bind
+SQL::Interp
 SQL::Maker
 SQL::NamedPlaceholder
 SQL::QueryMaker
@@ -2452,6 +2540,7 @@ Sub::Install
 Sub::Iterator
 Submodules
 Sub::Name
+Sub::Override
 Sub::Prepend
 Sub::Quote
 Sub::Retry
@@ -2474,6 +2563,7 @@ Sys::Run
 Sys::SigAction
 Sys::Syscall
 System::Command
+Taint::Runtime
 Taint::Util
 TAP::Convert::TET
 TAP::DOM
@@ -2565,6 +2655,7 @@ Test::InDistDir
 Test::Inter
 Test::JSON
 Test::JSON::Entails
+Test::JSON::More
 Test::Kit
 Test::Kwalitee
 Test::Lazy
@@ -2602,6 +2693,7 @@ Test::Output
 Test::Perinci::CmdLine
 Test::Perl::Critic
 Test::PerlTidy
+Test::Plan
 Test::Pod
 Test::Pod::Content
 Test::Pod::Coverage
@@ -2627,10 +2719,12 @@ Test::TCP::Multi
 Test::TempDir::Tiny
 Test::TestCoverage
 Test::Time
+Test::Timer
 Test::Trap
 Test::Unit::Lite
 Test::UseAllModules
 Test::utf8
+Test::Valgrind
 Test::Version
 Test::Warn
 Test::Warnings
@@ -2667,9 +2761,11 @@ Text::Levenshtein
 Text::LineNumber
 Text::Markdown
 Text::Markdown::Discount
+Text::MultiMarkdown
 Text::Patch
 Text::PDF
 Text::Phonetic
+Text::Reflow
 Text::Reform
 Text::Repository
 Text::Similarity
@@ -2721,6 +2817,7 @@ Tie::ToObject
 Tie::UnionHash
 Tie::Util
 Tie::Watch
+Tiffany
 Time::Duration
 Time::Duration::Parse
 Time::Duration::Parse::AsHash
@@ -2875,11 +2972,13 @@ WWW::Robot
 WWW::RobotRules
 XML::asData
 XML::Atom::SimpleFeed
+XML::Atom::Syndication
 XML::CanonicalizeXML
 XML::Catalog
 XML::Descent
 XML::DOM
 XML::Dumper
+XML::Elemental
 XML::Fast
 XML::Filter::BufferText
 XML::Flow
@@ -2909,11 +3008,13 @@ XML::Twig
 XML::Writer
 XML::XommonNS
 XML::XPath
+XML::XPathEngine
 Xporter
 XS::Check
 XS::Install
 XS::libcatch
 XS::libpanda
+XS::Parse::Sublike
 XString
 XXX
 YAMC
