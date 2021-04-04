@@ -10,13 +10,17 @@ c-ares
 cash
 Cash-CLI
 Cataclysm-DDA
+cattle
 cc65
 ccache
+ccontrol
 CDM
 CDParanoiaIII
 cdrtools
 cdw
 cffi
+cgdb
+cgvg
 chalk
 Chapel
 chessbash
@@ -39,6 +43,7 @@ coat
 Coconut
 Cogl
 colord
+colormake
 ColorPicker
 colorstatic
 columnify

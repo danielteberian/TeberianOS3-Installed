@@ -3,7 +3,10 @@ AbiWord
 Abseil-C++
 ABSL
 AccountsService
+ACME
 acpid
+acpitool
+acr
 advancecomp
 agedu
 aha
@@ -37,11 +40,13 @@ archivemount
 argh
 args
 Ark
+AS31
 ash-editor
 asio
 Aspell
 Aspell-en
 assimp
+astyle
 ATK
 ATKmm
 atomicparsley
@@ -54,6 +59,7 @@ Autoconf
 Automake
 Avahi
 avfs
+aview
 away
 Awesome-Finder
 AwesomeWM
