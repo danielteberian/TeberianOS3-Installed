@@ -1,3 +1,4 @@
+c5scan
 cabal
 Cairo
 Cairo-Dock-Core
@@ -19,6 +20,7 @@ CDParanoiaIII
 cdrtools
 cdw
 cffi
+cflow
 cgdb
 cgvg
 chalk

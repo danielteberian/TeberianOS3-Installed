@@ -12,6 +12,7 @@ liba52-0.7.4
 libaio-0.3.112
 libao-1.2.0
 libappimage
+libapreq2
 libarchive-3.4.3
 libass-0.14.0
 libassuan-2.5.3
@@ -36,6 +37,7 @@ libclientserverjs
 libconfini
 libcue
 libdaemon
+libdaq
 libdazzle
 libdbusmenu-qt
 libdc1394
@@ -47,6 +49,7 @@ libdvbpsi
 libdvdcss-1.4.2
 libdvdnav-6.1.0
 libdvdread-6.1.1
+libedit
 libedit-3.1
 libepoxy-1.5.4
 libev-4.0.0
@@ -92,9 +95,11 @@ libkcddb-20.08.0
 libkcompactdisc
 libkdcraw-20.08.0
 libkexiv2-20.08.0
+libknit
 libksba-1.4.0
 libLAS
 liblinear
+liblo
 liblxqt
 libLXQt
 libmatemixer
